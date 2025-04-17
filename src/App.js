@@ -13,12 +13,14 @@ import {
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
+import FoodMenu from "./container/FoodMenu/FoodMenu";
 
 const App = () => (
   <div>
     <Navbar />
     <Header />
     <AboutUs />
+    <FoodMenu />
     <SpecialMenu />
     <Chef />
     <Intro />

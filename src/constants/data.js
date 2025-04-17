@@ -79,4 +79,60 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+const andhra = [
+  {
+    title: 'Andhra Meals',
+    price: '$56',
+    tags: 'Rice | Sambar | Rasam | Pappu | Raitha | Gun Powder',
+  },
+  {
+    title: 'Dum Biryani',
+    price: '$59',
+    tags: 'Chicken | Mutton | Fish | Prawns | Egg | Vegetable',
+  },
+  {
+    title: 'The King of Eden',
+    price: '$44',
+    tags: 'Chicken | Lamb | Seafood | Andhra Spices',
+  },
+  {
+    title: 'Chicken',
+    price: '$31',
+    tags: 'Guntur | Chilli | Kebab | Fry',
+  },
+  {
+    title: 'Ghee Roast',
+    price: '$26',
+    tags: 'Chicken | Prawns | Mutton',
+  },
+];
+const north = [
+  {
+    title: 'Dal Masala',
+    price: '$56',
+    tags: 'Palak | Tadka | Makhani',
+  },
+  {
+    title: 'Paneer Masala',
+    price: '$59',
+    tags: 'Palak | Tikka | Butter',
+  },
+  {
+    title: 'Chicken Masala',
+    price: '$44',
+    tags: 'Vindaloo | Butter | Saagwala | Do Pyaaza',
+  },
+  {
+    title: 'Choice of Breads',
+    price: '$31',
+    tags: 'Roti | Kulcha | Naan | Paratha',
+  },
+  {
+    title: 'Tandoori',
+    price: '$26',
+    tags: 'Haryali | Kalimirch | Malai | Achari | Reshmi',
+  },
+];
+
+
+export default { wines, cocktails, awards, andhra, north };

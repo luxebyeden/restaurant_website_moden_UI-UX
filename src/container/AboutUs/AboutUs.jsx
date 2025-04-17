@@ -14,16 +14,20 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
+        <h1 className="headtext__cormorant">Gourmet Experience</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Bestowing an enchanting setting with desirable seating and cozy
+          gazebos at any time of the day, from lunch to dinner, including
+          tea-time, cocktails, laid-back bites and effortless sips, Eden Park is
+          sleek and refreshing. Presenting a wealth of authentic Indian, Chinese
+          and Italian dishes freshly interpreted to leaf through delicious
+          apéritif and digéstif at the familiar lounge bar and exquisite hookah
+          salon, the restaurant is an all-time classic with a view. Delicately
+          curated with a passion for hospitality, the staff, the amenities and
+          the service sparkle with the unmistakable vibrancy of the capital's
+          diverse panorama.
         </p>
-        <button type="button" className="custom__button">
-          Know More
-        </button>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -31,16 +35,20 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our History</h1>
+        <h1 className="headtext__cormorant">Charted Memories</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Equipped with awe-inspiring infrastructure and plenty of natural
+          light, it is designed to not just fit the purpose but to create the
+          right ambience. Birthdays, reunions, date nights, proposals, kitty
+          parties, meetings, team outings, family dinners, etc. every event
+          turns into a celebration at Eden Park. Recreation and the spirit of
+          sportsmanship echoes through the Jelly Garden as real-time tournaments
+          are screened. Tailored to seat 400 patrons across sections of 4 and 8
+          counter tops, the restaurant even shelters 3 unique pavilions to host
+          private ensembles of 15, 20 and 30 respectively. Valet parking service
+          is available at the entrance.
         </p>
-        <button type="button" className="custom__button">
-          Know More
-        </button>
       </div>
     </div>
   </div>
