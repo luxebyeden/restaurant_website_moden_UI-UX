@@ -14,7 +14,7 @@ const FoodMenu = () => (
     <div className="app__foodMenu-menu">
       <div className="app__foodMenu-menu_cocktails flex__center">
         <p className="app__foodMenu-menu_heading">
-          FIery Flavors of The Deccan
+          Fiery Flavors of The Deccan
         </p>
         <div className="app__foodMenu_menu_items">
           {data.andhra.map((andhra, index) => (

@@ -2,7 +2,6 @@ import React from "react";
 
 import {
   AboutUs,
-  Chef,
   FindUs,
   Footer,
   Gallery,
@@ -10,6 +9,7 @@ import {
   Intro,
   Laurels,
   SpecialMenu,
+  Luxe,
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
@@ -22,7 +22,7 @@ const App = () => (
     <AboutUs />
     <FoodMenu />
     <SpecialMenu />
-    <Chef />
+    <Luxe />
     <Intro />
     <Laurels />
     <Gallery />

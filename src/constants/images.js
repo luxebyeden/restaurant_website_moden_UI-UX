@@ -22,6 +22,8 @@ import quote from "../assets/quote.png";
 import gericht from "../assets/gericht.png";
 import biryani from "../assets/biryani.png";
 import chutney from "../assets/chutney.png";
+import luxe from "../assets/Luxe.png"
+import luxe01 from "../assets/luxe/luxe01.jpg"  
 
 export default {
   bg,
@@ -48,4 +50,6 @@ export default {
   gericht,
   biryani,
   chutney,
+  luxe,
+  luxe01,
 };

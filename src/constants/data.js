@@ -1,138 +1,137 @@
-import images from './images';
+import images from "./images";
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: "Champagne",
+    price: "$56",
+    tags: "Moet et Chandon, brut imperial - France",
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: "Sparkling Wine",
+    price: "$59",
+    tags: "Fratelli Gran Cuvee Brut - India",
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: "Rose Wine",
+    price: "$44",
+    tags: "Sula Zinfandel",
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: "Draught Beer",
+    price: "$31",
+    tags: "Kingfisher | Budweiser | Hoegaarden | Kolsch-Ale-Wit",
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: "Danzante",
+    price: "$26",
+    tags: "Merlot - Italy",
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: "LIIT",
+    price: "₹250", // Assuming price in Indian Rupees
+    tags: "Vodka | Gin | White Rum | Tequila | Triple Sec | Lime Juice | Cola",
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Margarita",
+    price: "₹220", // Assuming price in Indian Rupees
+    tags: "Tequila | Lime Juice | Cointreau (or Triple Sec) | Salt Rim",
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: "Tequilla Sunrise",
+    price: "₹200", // Assuming price in Indian Rupees
+    tags: "Tequila | Orange Juice | Grenadine",
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: "Singapore Sling",
+    price: "₹280", // Assuming price in Indian Rupees
+    tags: "Gin | Cherry Brandy | Cointreau | Benedictine | Pineapple Juice | Lime Juice | Grenadine | Angostura Bitters",
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: "Blue Lagoon",
+    price: "₹180", // Assuming price in Indian Rupees
+    tags: "Vodka | Blue Curaçao | Lemonade | Lime wedge",
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Bib Gourmond",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Rising Star",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "AA Hospitality",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Outstanding Chef",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
 ];
 
 const andhra = [
   {
-    title: 'Andhra Meals',
-    price: '$56',
-    tags: 'Rice | Sambar | Rasam | Pappu | Raitha | Gun Powder',
+    title: "Andhra Meals",
+    price: "$56",
+    tags: "Rice | Sambar | Rasam | Pappu | Raitha | Gun Powder",
   },
   {
-    title: 'Dum Biryani',
-    price: '$59',
-    tags: 'Chicken | Mutton | Fish | Prawns | Egg | Vegetable',
+    title: "Dum Biryani",
+    price: "$59",
+    tags: "Chicken | Mutton | Fish | Prawns | Egg | Vegetable",
   },
   {
-    title: 'The King of Eden',
-    price: '$44',
-    tags: 'Chicken | Lamb | Seafood | Andhra Spices',
+    title: "The King of Eden",
+    price: "$44",
+    tags: "Chicken | Lamb | Seafood | Andhra Spices",
   },
   {
-    title: 'Chicken',
-    price: '$31',
-    tags: 'Guntur | Chilli | Kebab | Fry',
+    title: "Chicken",
+    price: "$31",
+    tags: "Guntur | Chilli | Kebab | Fry",
   },
   {
-    title: 'Ghee Roast',
-    price: '$26',
-    tags: 'Chicken | Prawns | Mutton',
+    title: "Ghee Roast",
+    price: "$26",
+    tags: "Chicken | Prawns | Mutton",
   },
 ];
 const north = [
   {
-    title: 'Dal Masala',
-    price: '$56',
-    tags: 'Palak | Tadka | Makhani',
+    title: "Dal Masala",
+    price: "$56",
+    tags: "Palak | Tadka | Makhani",
   },
   {
-    title: 'Paneer Masala',
-    price: '$59',
-    tags: 'Palak | Tikka | Butter',
+    title: "Paneer Masala",
+    price: "$59",
+    tags: "Palak | Tikka | Butter",
   },
   {
-    title: 'Chicken Masala',
-    price: '$44',
-    tags: 'Vindaloo | Butter | Saagwala | Do Pyaaza',
+    title: "Chicken Masala",
+    price: "$44",
+    tags: "Vindaloo | Butter | Saagwala | Do Pyaaza",
   },
   {
-    title: 'Choice of Breads',
-    price: '$31',
-    tags: 'Roti | Kulcha | Naan | Paratha',
+    title: "Choice of Breads",
+    price: "$31",
+    tags: "Roti | Kulcha | Naan | Paratha",
   },
   {
-    title: 'Tandoori',
-    price: '$26',
-    tags: 'Haryali | Kalimirch | Malai | Achari | Reshmi',
+    title: "Tandoori",
+    price: "$26",
+    tags: "Haryali | Kalimirch | Malai | Achari | Reshmi",
   },
 ];
-
 
 export default { wines, cocktails, awards, andhra, north };
