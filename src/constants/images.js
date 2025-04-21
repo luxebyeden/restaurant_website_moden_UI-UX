@@ -24,6 +24,9 @@ import biryani from "../assets/biryani.png";
 import chutney from "../assets/chutney.png";
 import luxe from "../assets/Luxe.png"
 import luxe01 from "../assets/luxe/luxe01.jpg"  
+import eden from "../assets/eden.png"
+import edenlogo from "../assets/eden_logo.png"
+import E from "../assets/E.png"
 
 export default {
   bg,
@@ -52,4 +55,7 @@ export default {
   chutney,
   luxe,
   luxe01,
+  eden,
+  edenlogo,
+  E,
 };

@@ -12,7 +12,7 @@ const FindUs = () => (
       </h1>
       <div className="app__wrapper-content">
         <p className="p__opensans">
-          Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG
+          Eden Park Restaurant, 21, 1, Cunningham Rd, behind The Hindu newspaper office, Shivaji Nagar, Bengaluru, Karnataka - 560001
         </p>
         <p
           className="p__cormorant"
@@ -20,8 +20,7 @@ const FindUs = () => (
         >
           Opening Hours
         </p>
-        <p className="p__opensans">Mon - Fri: 10:00 am - 02:00 am</p>
-        <p className="p__opensans">Sat - Sun: 10:00 am - 03:00 am</p>
+        <p className="p__opensans">Mon - Sun: 12:00 pm - 11:30 pm</p>
       </div>
       <button
         type="button"

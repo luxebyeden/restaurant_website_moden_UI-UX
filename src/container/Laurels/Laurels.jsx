@@ -19,8 +19,8 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
 const Laurels = () => (
   <div className="app__bg app__wrapper section__padding" id="award">
     <div className="app__wrapper_info">
-      <SubHeading title="Awards & Recognition" />
-      <h1 className="headtext__cormorant">Our Laurels</h1>
+      <SubHeading title="Our Hospitality Portolio" />
+      <h1 className="headtext__cormorant">Unique Culinary Experience</h1>
 
       <div className="app__laurels_awards">
         {data.awards.map((award) => (
@@ -29,7 +29,7 @@ const Laurels = () => (
       </div>
     </div>
     <div className="app__wrapper_img">
-      <img src={images.laurels} alt="laurals_img" />
+      <img src={images.biryani} alt="laurals_img" />
     </div>
   </div>
 );

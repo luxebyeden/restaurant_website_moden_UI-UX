@@ -9,7 +9,7 @@ const AboutUs = () => (
     id="about"
   >
     <div className="app__aboutus-overlay flex__center">
-      <img src={images.G} alt="g letter" />
+      <img src={images.E} alt="g letter" />
     </div>
 
     <div className="app__aboutus-content flex__center">

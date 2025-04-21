@@ -58,24 +58,19 @@ const cocktails = [
 
 const awards = [
   {
-    imgUrl: images.award02,
-    title: "Bib Gourmond",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
-  },
-  {
     imgUrl: images.award01,
-    title: "Rising Star",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Eden Park, Cunningham Road",
+    subtitle: "Andhra | Chinese | North Indian | Italian | Indian Wok | Alcohol*",
   },
   {
-    imgUrl: images.award05,
-    title: "AA Hospitality",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    imgUrl: images.award02,
+    title: "Guntoor Mirchi, Nexus Shantiniketan Mall",
+    subtitle: "Andhra | North Indian | Chinese",
   },
   {
     imgUrl: images.award03,
-    title: "Outstanding Chef",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Kaaram Koruku, Nexus Shantiniketan Mall",
+    subtitle: "South Indian | Andhra",
   },
 ];
 
