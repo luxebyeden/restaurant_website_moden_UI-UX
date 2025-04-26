@@ -2,7 +2,7 @@ import React from "react";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 
 import { images } from "../../constants";
-import { FooterOverlay, Newsletter } from "../../components";
+import { FooterOverlay } from "../../components";
 import "./Footer.css";
 
 const Footer = () => (
@@ -10,14 +10,14 @@ const Footer = () => (
     <FooterOverlay />
     {/* <Newsletter /> */}
 
-    <div className="app__footer-links">
+    <div className="app__footer-links ">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">21/1, Near The Hindu, Cunningham Road, Bangalore</p>
         <p className="p__opensans">+91 990 044 6076</p>
       </div>
 
-      <div className="app__footer-links_logo">
+      <div className="app__footer-links_logo ">
         <img src={images.edenlogo} alt="footer_logo" />
         <p className="p__opensans">
           &quot;The best way to find yourself is to lose yourself in the service

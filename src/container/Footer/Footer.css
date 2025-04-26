@@ -23,11 +23,19 @@
 }
 
 .app__footer-links_contact,
-.app__footer-links_logo,
 .app__footer-links_work {
   flex: 1;
   margin: 1rem;
   text-align: center;
+}
+
+.app__footer-links_logo {
+  flex: 1;
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .app__footer-links_logo img:first-child {
@@ -41,6 +49,8 @@
 
 .app__footer-links_icons {
   margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .app__footer-links_icons svg {

@@ -1,34 +1,20 @@
 import React from "react";
-
-import {
-  AboutUs,
-  FindUs,
-  Footer,
-  Gallery,
-  Header,
-  Intro,
-  Laurels,
-  SpecialMenu,
-  Luxe,
-} from "./container";
-import { Navbar } from "./components";
 import "./App.css";
-import FoodMenu from "./container/FoodMenu/FoodMenu";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import { Navbar } from "./components";
+import { Footer } from "./container";
+import LuxePage from "./components/LuxePage";
 
-const App = () => (
-  <div>
-    <Navbar />
-    <Header />
-    <AboutUs />
-    <FoodMenu />
-    <SpecialMenu />
-    <Luxe />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer />
-  </div>
-);
-
-export default App;
+export default function App() {
+  return (
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/luxe" element={<LuxePage />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
+}

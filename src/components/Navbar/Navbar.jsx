@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#home">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="p__opensans">
           <a href="#about">About</a>
@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href="#menu">Menu</a>
         </li>
         <li className="p__opensans">
-          <a href="#luxe">Luxe</a>
+          <a href="/luxe">Luxe</a>
         </li>
       </ul>
       <div className="app__navbar-login">
@@ -52,7 +52,7 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="#home" onClick={() => setToggleMenu(false)}>
+                <a href="/" onClick={() => setToggleMenu(false)}>
                   Home
                 </a>
               </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="p__opensans">
-                <a href="#luxe" onClick={() => setToggleMenu(false)}>
+                <a href="/luxe" onClick={() => setToggleMenu(false)}>
                   Luxe
                 </a>
               </li>
