@@ -11,9 +11,10 @@ import {
   Luxe,
 } from "../container";
 import FoodMenu from "../container/FoodMenu/FoodMenu";
+import ContactForm from "./ContactForm";
 
 const HomePage = () => (
-  <div>
+  <div className="app__bg">
     <Header />
     <AboutUs />
     <FoodMenu />
@@ -22,6 +23,8 @@ const HomePage = () => (
     <Intro />
     <Laurels />
     <Gallery />
+    
+    <ContactForm/>
     <FindUs />
     
   </div>

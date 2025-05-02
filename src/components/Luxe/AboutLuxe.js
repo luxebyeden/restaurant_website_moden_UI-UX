@@ -1,44 +1,56 @@
 import React from "react";
+import { images } from "../../constants";
 
-const AboutLuxe = () => {
+export default function AboutLuxe() {
   return (
-    <div className="flex flex-wrap  items-start gap-12 p-12">
-      <div className="w-full md:w-1/2">
-        <h2 className="font-herr-von text-[100px] font-normal mb-[-55px] text-black">
-          Discover
-        </h2>
-        <h3 className="font-source-code text-[47px] font-bold tracking-[9.4px] mb-4 text-black">
-          Our Story
-        </h3>
-        <div className="text-yellow-500">*</div>
-        <p className="font-cabin text-base leading-[27px] text-yellow-700">
-          Rosa is a restaurant, bar and coffee roastery located on a busy corner
-          site in Farringdon’s Exmouth Market. With glazed frontage on two sides
-          of the building, overlooking the market and a bustling London
-          intersection.
-        </p>
-        <div className="font-cabin text-base border-b-2 border-amber-600 pb-[4px] mt-4 inline-block tracking-[1.5px] text-[18px]">
-          <a href="#">About Us</a>
+    <div>
+      <section>
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
+            <div>
+              <div className="max-w-lg md:max-w-none text-white">
+                <h2 className="text-2xl font-semibold sm:text-3xl headtext__cormorant">
+                  A Reflection of You
+                </h2>
+
+                <img
+                  src={images.spoon}
+                  alt="about_spoon"
+                  className="spoon__img"
+                />
+
+                <p className="mt-4 p__opensans">
+                  Poised in the heart of Eden Park is an entourage of beauty,
+                  luxury and sophistication. Wrapped around 2500 sq. ft. of
+                  quintessential lifestyle, elegant interiors, contemporary
+                  textures, swathes of natural sunlight, twinkling night lights,
+                  and picture perfect panoramas of nature, Luxe is synonymous to
+                  opulence, grandeur and everything you envision for an
+                  unforgettable event.
+                  <br />
+                  <br />
+                  Imagine your guests stepping into a space where sophistication
+                  meets seamless functionality. The elegant interiors provide a
+                  versatile backdrop, easily transforming to suit your unique
+                  style and theme, whether it's a chic cocktail reception, a
+                  grand banquet, or an intimate celebration. Natural sunlight
+                  floods the space during the day, creating an airy and inviting
+                  ambiance, while the twinkling city lights at night add a touch
+                  of magic and romance.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <img
+                src={images.luxe14}
+                className="rounded"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="w-full md:w-1/2 flex">
-        <div className="w-1/2 mr-4">
-          <img
-            src="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988527/vertical-photo-1.jpg"
-            alt="Food Photo"
-            className="max-w-full rounded-md"
-          />
-        </div>
-        <div className="w-1/2">
-          <img
-            src="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988532/vertical-photo-2.jpg"
-            alt="Food Photo"
-            className="max-w-full rounded-md"
-          />
-        </div>
-      </div>
+      </section>
     </div>
   );
-};
-
-export default AboutLuxe;
+}

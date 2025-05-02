@@ -22,11 +22,27 @@ import quote from "../assets/quote.png";
 import gericht from "../assets/gericht.png";
 import biryani from "../assets/biryani.png";
 import chutney from "../assets/chutney.png";
-import luxe from "../assets/Luxe.png"
-import luxe01 from "../assets/luxe/luxe01.jpg"  
-import eden from "../assets/eden.png"
-import edenlogo from "../assets/eden_logo.png"
-import E from "../assets/E.png"
+import luxe from "../assets/Luxe.png";
+import eden from "../assets/eden.png";
+import edenlogo from "../assets/eden_logo.png";
+import E from "../assets/E.png";
+
+import luxe01 from "../assets/luxe/luxe01.jpg";
+import luxe02 from "../assets/luxe/luxe02.jpg";
+import luxe03 from "../assets/luxe/luxe03.jpg";
+import luxe04 from "../assets/luxe/luxe04.jpg";
+import luxe05 from "../assets/luxe/luxe05.jpg";
+import luxe06 from "../assets/luxe/luxe06.jpg";
+import luxe07 from "../assets/luxe/luxe07.jpg";
+import luxe08 from "../assets/luxe/luxe08.jpg";
+import luxe09 from "../assets/luxe/luxe09.jpg";
+import luxe10 from "../assets/luxe/luxe10.jpg";
+import luxe11 from "../assets/luxe/luxe11.jpg";
+import luxe12 from "../assets/luxe/luxe12.jpg";
+import luxe13 from "../assets/luxe/luxe13.jpg";
+import luxe14 from "../assets/luxe/luxe14.jpg";
+import luxe15 from "../assets/luxe/luxe15.jpg";
+import luxe16 from "../assets/luxe/luxe16.jpg";
 
 export default {
   bg,
@@ -58,4 +74,20 @@ export default {
   eden,
   edenlogo,
   E,
+  luxe01,
+  luxe02,
+  luxe03,
+  luxe04,
+  luxe05,
+  luxe06,
+  luxe07,
+  luxe08,
+  luxe09,
+  luxe10,
+  luxe11,
+  luxe12,
+  luxe13,
+  luxe14,
+  luxe15,
+  luxe16,
 };

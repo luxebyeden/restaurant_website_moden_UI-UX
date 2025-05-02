@@ -5,6 +5,7 @@ import HomePage from "./components/HomePage";
 import { Navbar } from "./components";
 import { Footer } from "./container";
 import LuxePage from "./components/LuxePage";
+import ContactForm from "./components/ContactForm";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/luxe" element={<LuxePage />} />
+        <Route path="/contact" element={<ContactForm />} />
       </Routes>
       <Footer />
     </div>
