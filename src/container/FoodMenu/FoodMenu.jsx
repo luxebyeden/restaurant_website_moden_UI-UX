@@ -21,7 +21,7 @@ const FoodMenu = () => (
             <MenuItem
               key={andhra.title + index}
               title={andhra.title}
-              price={andhra.price}
+              // price={andhra.price}
               tags={andhra.tags}
             />
           ))}
@@ -41,7 +41,7 @@ const FoodMenu = () => (
             <MenuItem
               key={north.title + index}
               title={north.title}
-              price={north.price}
+              // price={north.price}
               tags={north.tags}
             />
           ))}

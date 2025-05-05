@@ -19,7 +19,7 @@ const SpecialMenu = () => (
             <MenuItem
               key={wine.title + index}
               title={wine.title}
-              price={wine.price}
+              // price={wine.price}
               tags={wine.tags}
             />
           ))}
@@ -37,7 +37,7 @@ const SpecialMenu = () => (
             <MenuItem
               key={cocktails.title + index}
               title={cocktails.title}
-              price={cocktails.price}
+              // price={cocktails.price}
               tags={cocktails.tags}
             />
           ))}
