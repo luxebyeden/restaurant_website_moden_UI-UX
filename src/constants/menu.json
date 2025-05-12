@@ -1,0 +1,662 @@
+{
+    "restaurant_name": "Eden Park",
+    "menu": {
+        "cocktails": [
+            {
+                "name": "Long Island Iced Tea",
+                "price_inr": 749.00,
+                "description": "Tequila, light rum, vodka, gin and triple sec"
+            },
+            {
+                "name": "The Original Classic Mojito",
+                "price_inr": 519.00,
+                "description": "Muddled lime and fresh mint served with white rum over crushed ice"
+            },
+            {
+                "name": "Margarita (Apple/Pomegranate/Watermelon)",
+                "price_inr": 669.00
+            },
+            {
+                "name": "Blue Lagoon",
+                "price_inr": 469.00,
+                "description": "Vodka, blue curacao liqueur topped up with lemonade"
+            },
+            {
+                "name": "Tequila Sunrise",
+                "price_inr": 669.00,
+                "description": "Tequila, orange and grenadine"
+            },
+            {
+                "name": "Alexander",
+                "price_inr": 469.00,
+                "description": "Brandy, crème de cacao and cream"
+            },
+            {
+                "name": "Singapore Sling",
+                "price_inr": 519.00,
+                "description": "Gin, cointreau, pineapple and angostura bitters"
+            }
+        ],
+        "alternative_mixology": [
+            {
+                "name": "Guava Watermelon Smoothie",
+                "price_inr": 299.00,
+                "description": "(Watermelon, guava, banana, ginger, salt)"
+            },
+            {
+                "name": "Pomegranate Lemon Ginger",
+                "price_inr": 319.00,
+                "description": "(Pomegranate, lime, ginger, honey, cinnamon)"
+            },
+            {
+                "name": "Cucumber Lemon Mint",
+                "price_inr": 299.00,
+                "description": "(Cucumber, lemon, mint, honey, cumin seeds)"
+            },
+            {
+                "name": "Mint & Lime Cooler",
+                "price_inr": 299.00,
+                "description": "(Blended mint leaves, lemon juice, honey, ice cubes & salt topped with soda)"
+            }
+        ],
+        "wines": [
+            {
+                "name": "Champagne - Moët & Chandon, Brut Imperial - France",
+                "by_glass": null,
+                "by_bottle": 8449.00
+            },
+            {
+                "name": "Sparkling Wine - Fratelli Gran Cuvée Brut – India",
+                "by_glass": null,
+                "by_bottle": 4199.00
+            },
+            {
+                "name": "Rosé Wine - Sula Zinfandel",
+                "by_glass": 679.00,
+                "by_bottle": 3399.00
+            },
+            {
+                "name": "White Wine - Grover Sauvignon Blanc, India",
+                "by_glass": 659.00,
+                "by_bottle": 3299.00
+            },
+            {
+                "name": "White Wine - Sula, Chenin Blanc, India",
+                "by_glass": 659.00,
+                "by_bottle": 3299.00
+            },
+            {
+                "name": "White Wine - Fratelli Chenin Blanc",
+                "by_glass": 659.00,
+                "by_bottle": 3299.00
+            },
+            {
+                "name": "Red - Danzante Merlot, Italy",
+                "by_glass": 899.00,
+                "by_bottle": 4499.00
+            },
+            {
+                "name": "Red - Sula Vineyards Shiraz",
+                "by_glass": 659.00,
+                "by_bottle": 3299.00
+            },
+            {
+                "name": "Red - Grover La Reserve",
+                "by_glass": 659.00,
+                "by_bottle": 3299.00
+            },
+            {
+                "name": "Red - Fratelli Merlot",
+                "by_glass": 659.00,
+                "by_bottle": 3299.00
+            }
+        ],
+        "spirits": [
+            {
+                "category": "Single Malt Scotch",
+                "items": [
+                    {"name": "Glenfiddich (15y)", "price_inr": 989.00},
+                    {"name": "Glenlivet (12y)", "price_inr": 789.00},
+                    {"name": "Amrut Fusion", "price_inr": 399.00}
+                ]
+            },
+            {
+                "category": "Deluxe Scotch",
+                "items": [
+                    {"name": "JW Blue Label", "price_inr": 1589.00},
+                    {"name": "Royal Salute (21y)", "price_inr": 1119.00},
+                    {"name": "JW Black Label", "price_inr": 699.00},
+                    {"name": "Chivas Regal (12y)", "price_inr": 589.00}
+                ]
+            },
+            {
+                "category": "Premium Scotch",
+                "items": [
+                    {"name": "Black Dog (12y)", "price_inr": 489.00},
+                    {"name": "Teachers-50 (12y)", "price_inr": 489.00}
+                ]
+            },
+            {
+                "category": "Regular Scotch",
+                "items": [
+                    {"name": "JW Red Label", "price_inr": 369.00},
+                    {"name": "Black Dog Centenary", "price_inr": 319.00},
+                    {"name": "Teacher's Highland Cream", "price_inr": 319.00},
+                    {"name": "Black & White", "price_inr": 319.00},
+                    {"name": "Vat 69", "price_inr": 319.00},
+                    {"name": "100 Pipers", "price_inr": 319.00}
+                ]
+            },
+            {
+                "category": "Bourbon/Tennessee/Irish",
+                "items": [
+                    {"name": "Jack Daniel's", "price_inr": 699.00},
+                    {"name": "Jamesons", "price_inr": 469.00},
+                    {"name": "Ballantine", "price_inr": 469.00},
+                    {"name": "Jim Beam", "price_inr": 469.00}
+                ]
+            },
+            {
+                "category": "Domestic Premium",
+                "items": [
+                    {"name": "Antiquity Blue", "price_inr": 299.00},
+                    {"name": "Blenders Pride", "price_inr": 299.00},
+                    {"name": "Royal Challenge", "price_inr": 279.00},
+                    {"name": "Signature", "price_inr": 279.00}
+                ]
+            },
+            {
+                "category": "Cognac",
+                "items": [
+                    {"name": "Hennessy", "price_inr": 689.00},
+                    {"name": "Morpheus –XO", "price_inr": 299.00},
+                    {"name": "Mansion House", "price_inr": 249.00}
+                ]
+            },
+            {
+                "category": "Vodka",
+                "items": [
+                    {"name": "Grey Goose", "price_inr": 719.00},
+                    {"name": "Absolut/Available Flavours", "price_inr": 569.00},
+                    {"name": "Smirnoff/Available Flavours", "price_inr": 349.00}
+                ]
+            },
+            {
+                "category": "Gin",
+                "items": [
+                    {"name": "Bombay Sapphire", "price_inr": 569.00},
+                    {"name": "Gordon’s London Dry", "price_inr": 389.00},
+                    {"name": "Greater Than London Dry", "price_inr": 329.00}
+                ]
+            },
+            {
+                "category": "Rum",
+                "items": [
+                    {"name": "Bacardi (White/Gold /Dark/Limon)", "price_inr": 389.00},
+                    {"name": "Hercules Deluxe", "price_inr": 219.00},
+                    {"name": "Old Monk", "price_inr": 189.00}
+                ]
+            },
+            {
+                "category": "Breezer",
+                "items": [
+                    {"name": "Ask for Available Flavours", "price_inr": 349.00}
+                ]
+            },
+            {
+                "category": "Agave Spirits",
+                "items": [
+                    {"name": "Don Angel", "price_inr": 599.00},
+                    {"name": "Camino Blanca", "price_inr": 599.00}
+                ]
+            },
+            {
+                "category": "Flavored Spirits",
+                "items": [
+                    {"name": "Bailey’s Irish Cream", "price_inr": 599.00},
+                    {"name": "Jägermeister", "price_inr": 599.00},
+                    {"name": "Kahlua", "price_inr": 599.00},
+                    {"name": "Cointreau", "price_inr": 599.00}
+                ]
+            }
+        ],
+        "beer": {
+            "on_tap": [
+                {
+                    "size": "330ml",
+                    "items": [
+                        {"name": "Kingfisher Premium", "price_inr": 259.00},
+                        {"name": "Kingfisher Ultra", "price_inr": 319.00},
+                        {"name": "Budweiser Premium", "price_inr": 279.00},
+                        {"name": "Budweiser Magnum", "price_inr": 319.00},
+                        {"name": "Toit-Tint–in-Wit", "price_inr": 319.00},
+                        {"name": "Toit-Basmati Blonde", "price_inr": 319.00},
+                        {"name": "Kolsch-Ale-Wit", "price_inr": 259.00},
+                        {"name": "Geist Craft - 330ml", "price_inr": null},
+                        {"name": "Weiss Guy", "price_inr": 549.00},
+                        {"name": "Witty Wit", "price_inr": 589.00},
+                        {"name": "Hoegaarden", "price_inr": 369.00}
+                    ]
+                },
+                {
+                    "size": "1500ml Pitcher",
+                    "items": [
+                        {"name": "Kingfisher Premium", "price_inr": 799.00},
+                        {"name": "Kingfisher Ultra", "price_inr": 989.00},
+                        {"name": "Budweiser Premium", "price_inr": 899.00},
+                        {"name": "Budweiser Magnum", "price_inr": 969.00},
+                        {"name": "Hoegaarden", "price_inr": 1499.00},
+                        {"name": "Kolsch-Ale-Wit", "price_inr": 799.00},
+                        {"name": "Toit-Tint–in-Wit", "price_inr": 989.00},
+                        {"name": "Toit-Basmati Blonde", "price_inr": 989.00}
+                    ]
+                },
+                {
+                    "size": "500ml Mug",
+                    "items": [
+                        {"name": "Kingfisher Premium", "price_inr": 369.00},
+                        {"name": "Kingfisher Ultra", "price_inr": 469.00},
+                        {"name": "Budweiser Premium", "price_inr": 369.00},
+                        {"name": "Budweiser Magnum", "price_inr": 469.00},
+                        {"name": "Hoegaarden", "price_inr": 489.00},
+                        {"name": "Kolsch-Ale-Wit", "price_inr": 369.00},
+                        {"name": "Toit-Tint–in-Wit", "price_inr": 469.00},
+                        {"name": "Toit-Basmati Blonde", "price_inr": 469.00}
+                    ]
+                },
+                {
+                    "size": "3000ml Tower",
+                    "items": [
+                        {"name": "Kingfisher Premium", "price_inr": 1699.00},
+                        {"name": "Kingfisher Ultra", "price_inr": 1999.00},
+                        {"name": "Budweiser Premium", "price_inr": 1899.00},
+                        {"name": "Budweiser Magnum", "price_inr": 1999.00}
+                    ]
+                }
+            ],
+            "bottled_330ml": [
+                {"name": "Corona", "price_inr": 549.00},
+                {"name": "Hoegaarden", "price_inr": 499.00},
+                {"name": "Budweiser Magnum", "price_inr": 369.00},
+                {"name": "Budweiser Premium", "price_inr": 349.00},
+                {"name": "Heineken", "price_inr": 369.00},
+                {"name": "Kingfisher Ultra", "price_inr": 369.00},
+                {"name": "Kingfisher Premium", "price_inr": 289.00},
+                {"name": "Kingfisher Strong", "price_inr": 299.00}
+            ]
+        ],
+        "non_alcoholic_beverages": [
+            {"name": "Bottled Water", "price_inr": null},
+            {"name": "Soda", "price_inr": 129.00},
+            {"name": "Aerated Beverages", "price_inr": 149.00},
+            {"name": "Diet Coke/Ginger Ale/Tonic Water", "price_inr": 169.00},
+            {"name": "Fresh Lime Soda/Water", "price_inr": 169.00},
+            {"name": "Canned Juice", "price_inr": 169.00},
+            {"name": "Energy Drinks", "price_inr": 249.00},
+            {"name": "Choice of Milkshake (Vanilla, Chocolate, Strawberry, Butterscotch, Pista)", "price_inr": 219.00},
+            {"name": "Choice of Lassi (Mango, Strawberry, Pista, Sweet, Salt)", "price_inr": 189.00},
+            {"name": "Seasonal Fresh Fruit Juice", "price_inr": 189.00},
+            {"name": "Coffee/Tea", "price_inr": 149.00}
+        ],
+        "salads": [
+            {"name": "Green Salad", "price_inr": 179.00},
+            {"name": "Caesar Salad Veg", "price_inr": 369.00},
+            {"name": "Caesar Salad Non-Veg", "price_inr": 469.00},
+            {"name": "SomTum - Green papaya salad", "price_inr": 369.00, "description": "(Lime juice and palm sugar mixed with green papaya and toasted peanuts)"},
+            {"name": "Glass Noodle Salad", "price_inr": 369.00, "description": "(Vermicelli noodles combined with black fungus and mixture of whisked soy sauce, oil and sugar and garlic powder)"},
+            {"name": "Chicken Oriental Salad", "price_inr": 469.00, "description": "(Combination of cabbage,bean sprouts, green onion, rice sticks sprinkled with soy)"}
+        ],
+        "soups": [
+            {"name": "Sweet Corn", "veg_price_inr": 226.00, "non_veg_price_inr": 289.00},
+            {"name": "Hot N’ Sour", "veg_price_inr": 226.00, "non_veg_price_inr": 289.00},
+            {"name": "Manchow", "veg_price_inr": 226.00, "non_veg_price_inr": 289.00},
+            {"name": "Lemon Coriander", "veg_price_inr": 226.00, "non_veg_price_inr": 289.00},
+            {"name": "Egg Drop Soup/Noodles", "veg_price_inr": 226.00, "non_veg_price_inr": 289.00}
+        ],
+        "appetizers": [
+            {"name": "Masala Papad", "price_inr": 99.00},
+            {"name": "Peanut Masala", "price_inr": 179.00},
+            {"name": "French Fries", "price_inr": 249.00},
+            {"name": "Cashew Nut Fry", "price_inr": 349.00},
+            {"name": "Harabara Kebab", "price_inr": 349.00},
+            {"name": "American Crispy Corn", "price_inr": 329.00},
+            {"name": "Cheese Cherry Pineapple Sticks", "price_inr": 319.00}
+        ],
+        "andhra_spices": [
+            {"name": "Chilli Chicken", "price_inr": 369.00},
+            {"name": "Guntur Chicken", "price_inr": 369.00},
+            {"name": "Chicken Fry", "price_inr": 369.00},
+            {"name": "Chicken Kebab", "price_inr": 369.00},
+            {"name": "Mutton Fry", "price_inr": 429.00},
+            {"name": "Tawa Fry – Anjal", "price_inr": 649.00},
+            {"name": "Ghee Roast Chicken", "price_inr": 389.00},
+            {"name": "Ghee Roast Prawn", "price_inr": 549.00},
+            {"name": "Ghee Roast Mutton", "price_inr": 469.00},
+            {"name": "The King of Eden", "price_inr": 2199.00, "description": "(Selection of chicken,lamb and seafood individually cooked in Andhra Spices)"}
+        ],
+        "biryani": [
+            {"name": "Chicken Biryani", "price_inr": 349.00},
+            {"name": "Bamboo Chicken Biryani", "price_inr": 1299.00, "notes": "(45 minutes required to serve)"},
+            {"name": "Bamboo Mutton Biryani", "price_inr": 1449.00, "notes": "(45 minutes required to serve)"},
+            {"name": "Bamboo Prawns Biryani", "price_inr": 1429.00, "notes": "(45 minutes required to serve)"},
+            {"name": "Bamboo Fish Biryani", "price_inr": 1669.00, "notes": "(45 minutes required to serve)"},
+            {"name": "Bamboo Egg Biryani", "price_inr": 899.00, "notes": "(45 minutes required to serve)"},
+            {"name": "Bamboo Vegetable Biryani", "price_inr": 799.00, "notes": "(45 minutes required to serve)"}
+        ],
+        "indian_wok": {
+            "veg": [
+                {"name": "Crispy Lotus Stem", "price_inr": 369.00},
+                {"name": "Veg Spring Roll", "price_inr": 319.00},
+                {"name": "Golden Fried Babycorn", "price_inr": 349.00},
+                {"name": "Stir Fried Vegetable", "price_inr": 349.00},
+                {"name": "Vegetable Balls in Hot Garlic Sauce", "price_inr": 339.00}
+            ],
+            "non_veg": [
+                {"name": "Lemon Butter Garlic Prawns", "price_inr": 489.00},
+                {"name": "Golden Fried Prawns", "price_inr": 489.00},
+                {"name": "Garlic Coriander Prawn", "price_inr": 489.00},
+                {"name": "Fish ‘n’ Chips", "price_inr": 569.00},
+                {"name": "Fish Fingers", "price_inr": 549.00},
+                {"name": "Chicken Spring Roll", "price_inr": 369.00},
+                {"name": "Mongolian Chicken", "price_inr": 389.00},
+                {"name": "Crispy Fried Chicken", "price_inr": 389.00}
+            ]
+        },
+        "manchurian_chilli_schezwan_garlic": [
+            {"name": "Chicken Manchurian", "price_inr": 379.00},
+            {"name": "Prawns Manchurian", "price_inr": 479.00},
+            {"name": "Egg Manchurian", "price_inr": 339.00},
+            {"name": "Paneer Manchurian", "price_inr": 369.00},
+            {"name": "Babycorn Manchurian", "price_inr": 349.00},
+            {"name": "Mushroom Manchurian", "price_inr": 349.00},
+            {"name": "Gobi Manchurian", "price_inr": 299.00},
+            {"name": "Potato Manchurian", "price_inr": 279.00},
+            {"name": "Chicken Chilli", "price_inr": 379.00},
+            {"name": "Prawns Chilli", "price_inr": 479.00},
+            {"name": "Egg Chilli", "price_inr": 339.00},
+            {"name": "Paneer Chilli", "price_inr": 369.00},
+            {"name": "Babycorn Chilli", "price_inr": 349.00},
+            {"name": "Mushroom Chilli", "price_inr": 349.00},
+            {"name": "Gobi Chilli", "price_inr": 299.00},
+             {"name": "Potato Chilli", "price_inr": 279.00},
+            {"name": "Chicken Schezwan", "price_inr": 379.00},
+            {"name": "Prawns Schezwan", "price_inr": 479.00},
+            {"name": "Egg Schezwan", "price_inr": 339.00},
+            {"name": "Paneer Schezwan", "price_inr": 369.00},
+            {"name": "Babycorn Schezwan", "price_inr": 349.00},
+            {"name": "Mushroom Schezwan", "price_inr": 349.00},
+            {"name": "Gobi Schezwan", "price_inr": 299.00},
+            {"name": "Potato Schezwan", "price_inr": 279.00},
+            {"name": "Chicken Garlic", "price_inr": 379.00},
+            {"name": "Prawns Garlic", "price_inr": 479.00},
+            {"name": "Egg Garlic", "price_inr": 339.00},
+            {"name": "Paneer Garlic", "price_inr": 369.00},
+            {"name": "Babycorn Garlic", "price_inr": 349.00},
+            {"name": "Mushroom Garlic", "price_inr": 349.00},
+            {"name": "Gobi Garlic", "price_inr": 299.00},
+            {"name": "Potato Garlic", "price_inr": 279.00}
+        ],
+        "thai_cuisine": {
+            "thai_curry": [
+                {
+                    "name": "Thai Curry - Red/Green (Chicken)",
+                    "price_inr": 469.00,
+                    "served_with": "Jasmine rice"
+                },
+                {
+                    "name": "Thai Curry - Red/Green (Vegetarian)",
+                    "price_inr": 389.00,
+                    "served_with": "Jasmine rice"
+                }
+            ]
+        },
+        "italian": {
+            "pizza": {
+                "vegetarian": [
+                    {
+                        "name": "Vegetarian Pizza Small",
+                        "price_inr": 449.00,
+                        "description": "Top of roasted veggies, caramel onion, black olives, fresh mozzarella cheese"
+                    },
+                    {
+                        "name": "Vegetarian Pizza Large",
+                        "price_inr": 549.00,
+                        "description": "Top of roasted veggies, caramel onion, black olives, fresh mozzarella cheese"
+                    },
+                    {
+                        "name": "Frame House",
+                        "price_inr": 549.00,
+                        "description": "Top of sliced onion, baby corn garlic, broccoli, basil, fresh mozzarella cheese"
+                    },
+                    {
+                        "name": "Pesto Paneer",
+                        "price_inr": 549.00,
+                        "description": "Colourful capsicum, sliced onion, pesto paneer, fresh mozzarella cheese"
+                    },
+                    {
+                        "name": "Peri Peri Paneer",
+                        "price_inr": 549.00,
+                        "description": "Mustard, paneer, jalapeno, onion garlic, fresh mozzarella cheese"
+                    },
+                    {
+                        "name": "Margarita",
+                        "price_inr": 549.00,
+                        "description": "Sun dried tomatoes, basil, and fresh mozzarella cheese"
+                    }
+                ],
+                "non_vegetarian": [
+                    {
+                        "name": "Non-Vegetarian Pizza Small",
+                        "price_inr": 489.00,
+                        "description": "Shredded chicken, jalapeno, onion garlic, fresh mozzarella cheese"
+                    },
+                    {
+                        "name": "Non-Vegetarian Pizza Large",
+                        "price_inr": 589.00,
+                        "description": "Shredded chicken, jalapeno, onion garlic, fresh mozzarella cheese"
+                    },
+                    {
+                        "name": "Pesto Chicken",
+                        "price_inr": 589.00,
+                        "description": "Ring onion, colourful capsicum, pesto chicken, coriander, black olives, fresh mozzarella"
+                    },
+                    {
+                        "name": "BBQ Chicken",
+                        "price_inr": 589.00,
+                        "description": "Ring onion, garlic, BBQ chicken, fresh mozzarella cheese"
+                    },
+                    {
+                        "name": "Tandoori Chicken",
+                        "price_inr": 589.00,
+                        "description": "Ring onion, red chilli, capsicum & baby corn tandoori marinated chicken, fresh mozzarella"
+                    }
+                ],
+                "extra_toppings": [
+                    {"type": "Non-Veg", "price_inr": 89.00},
+                    {"type": "Veg", "price_inr": 69.00}
+                ]
+            },
+            "cheese_garlic_bread": {"name": "Cheese Garlic Bread","price_inr": 289.00},
+            "pasta": [
+                {
+                    "name": "Chicken Pasta",
+                    "price_inr": 469.00,
+                    "options": ["Alfredo", "Arrabbiata", "Pesto", "Four Cheese"]
+                },
+                {
+                    "name": "Vegetarian Pasta",
+                    "price_inr": 389.00,
+                    "options": ["Alfredo", "Arrabbiata", "Pesto", "Four Cheese"]
+                }
+            ]
+        ],
+        "tandoori": {
+            "prawns": [
+                {"name": "Prawns Tikka Hyderabadi", "price_inr": 489.00},
+                {"name": "Prawns Hariyali", "price_inr": 489.00},
+                {"name": "Prawns Kallimirchi", "price_inr": 489.00},
+                {"name": "Prawns Malai", "price_inr": 489.00},
+                {"name": "Prawns Achari", "price_inr": 489.00},
+                {"name": "Prawns Reshmi", "price_inr": 489.00}
+            ],
+            "fish": [
+                {"name": "Fish Tikka Hyderabadi", "price_inr": 519.00},
+                {"name": "Fish Hariyali", "price_inr": 519.00},
+                {"name": "Fish Kallimirchi", "price_inr": 519.00},
+                {"name": "Fish Malai", "price_inr": 519.00},
+                {"name": "Fish Achari", "price_inr": 519.00},
+                {"name": "Fish Reshmi", "price_inr": 519.00}
+            ],
+            "chicken": [
+                {"name": "Chicken Tikka Hyderabadi", "price_inr": 419.00},
+                {"name": "Chicken Hariyali", "price_inr": 419.00},
+                {"name": "Chicken Kallimirchi", "price_inr": 419.00},
+                {"name": "Chicken Malai", "price_inr": 419.00},
+                {"name": "Chicken Achari", "price_inr": 419.00},
+                {"name": "Chicken Reshmi", "price_inr": 419.00}
+            ],
+            "paneer": [
+                {"name": "Paneer Tikka Hyderabadi", "price_inr": 419.00},
+                {"name": "Paneer Hariyali", "price_inr": 419.00},
+                {"name": "Paneer Kallimirchi", "price_inr": 419.00},
+                {"name": "Paneer Malai", "price_inr": 419.00},
+                {"name": "Paneer Achari", "price_inr": 419.00},
+                {"name": "Paneer Reshmi", "price_inr": 419.00}
+            ],
+            "baby_corn": [
+                {"name": "Baby corn Tikka Hyderabadi", "price_inr": 359.00},
+                {"name": "Baby corn Hariyali", "price_inr": 359.00},
+                {"name": "Baby corn Kallimirchi", "price_inr": 359.00},
+                {"name": "Baby corn Malai", "price_inr": 359.00},
+                {"name": "Baby corn Achari", "price_inr": 359.00},
+                {"name": "Baby corn Reshmi", "price_inr": 359.00}
+            ],
+            "mushroom": [
+                {"name": "Mushroom Tikka Hyderabadi", "price_inr": 359.00},
+                {"name": "Mushroom Hariyali", "price_inr": 359.00},
+                {"name": "Mushroom Kallimirchi", "price_inr": 359.00},
+                {"name": "Mushroom Malai", "price_inr": 359.00},
+                {"name": "Mushroom Achari", "price_inr": 359.00},
+                {"name": "Mushroom Reshmi", "price_inr": 359.00}
+            ],
+            "gobi": [
+                {"name": "Gobi Tikka Hyderabadi", "price_inr": 319.00},
+                {"name": "Gobi Hariyali", "price_inr": 319.00},
+                {"name": "Gobi Kallimirchi", "price_inr": 319.00},
+                {"name": "Gobi Malai", "price_inr": 319.00},
+                {"name": "Gobi Achari", "price_inr": 319.00},
+                {"name": "Gobi Reshmi", "price_inr": 319.00}
+            ],
+            "aloo": [
+                {"name": "Aloo Tikka Hyderabadi", "price_inr": 289.00},
+                {"name": "Aloo Hariyali", "price_inr": 289.00},
+                {"name": "Aloo Kallimirchi", "price_inr": 289.00},
+                {"name": "Aloo Malai", "price_inr": 289.00},
+                {"name": "Aloo Achari", "price_inr": 289.00},
+                {"name": "Aloo Reshmi", "price_inr": 289.00}
+            ],
+            "veg_tandoori": [
+                {"name": "Paneer & Pineapple Tikka", "price_inr": 419.00},
+                {"name": "Veg Seekh Kebab", "price_inr": 319.00},
+                {"name": "Eden Veg Platter", "price_inr": 1699.00, "description": "(An assortment of veg tikkas individually)"}
+            ],
+            "non_veg_tandoori": [
+                {"name": "Chicken Kalmi Kebab", "price_inr": 519.00},
+                {"name": "Mutton Sheekh Kebab", "price_inr": 499.00},
+                {"name": "Tandoori Chicken Full", "price_inr": 969.00},
+                {"name": "Tandoori Chicken Half", "price_inr": 519.00},
+                {"name": "Eden Chicken Platter", "price_inr": 1819.00, "description": "(Variety of chicken tikkas in tandoori preparation)"},
+                {"name": "Eden Mix Platter", "price_inr": 2499.00, "description": "(Chicken, lamb, fish and shrimp individually marinated and roasted in a clay oven)"}
+            ]
+        ],
+        "indian_bread": [
+            {"name": "Roti", "price_inr": 69.00},
+            {"name": "Butter Roti", "price_inr": 79.00},
+            {"name": "Kulcha", "price_inr": 69.00},
+            {"name": "Butter Kulcha", "price_inr": 79.00},
+            {"name": "Naan", "price_inr": 79.00},
+            {"name": "Butter Naan", "price_inr": 89.00},
+            {"name": "Paratha", "price_inr": 69.00},
+            {"name": "Garlic Naan", "price_inr": 129.00},
+            {"name": "Stuffed Kulcha/Naan", "price_inr": 149.00},
+            {"name": "Bread Basket", "price_inr": 619.00, "description": "(Varieties of baby bread)"
+        ],
+        "accompaniments": [
+            {"name": "Sambar", "price_inr": 169.00},
+            {"name": "Rasam", "price_inr": 129.00},
+            {"name": "Andhra Pappu", "price_inr": 249.00},
+            {"name": "Plain Curd", "price_inr": 89.00},
+             {"name": "Choice of Raitha (Onion, tomato, mix veg, aloo, pineapple)", "price_inr": 219.00}
+        ],
+        "indian_main_course": {
+            "veg": [
+                {"name": "Aloo Capsicum Dry", "price_inr": 289.00},
+                {"name": "Methi Mutter Malai", "price_inr": 349.00},
+                {"name": "Paneer Butter Masala", "price_inr": 369.00},
+                {"name": "Palak Paneer", "price_inr": 369.00},
+                {"name": "Dhingri Mutter", "price_inr": 349.00}
+            ],
+            "dal": [
+                {"name": "Dal Palak", "price_inr": 299.00},
+                {"name": "Dal Thadka", "price_inr": 299.00},
+                {"name": "Dal Makhani", "price_inr": 349.00}
+            ],
+            "non_veg": [
+                {
+                    "category": "Chicken",
+                    "items": [
+                        {"name": "Chicken Vindaloo", "price_inr": 389.00},
+                        {"name": "Butter Chicken", "price_inr": 389.00},
+                        {"name": "Chicken Saagwala", "price_inr": 389.00},
+                        {"name": "Chicken Do Pyaza", "price_inr": 389.00}
+                    ]
+                },
+                {
+                    "category": "Lamb",
+                    "items": [
+                        {"name": "Mutton Rogan Josh", "price_inr": 449.00},
+                        {"name": "Keema Mutter", "price_inr": 449.00},
+                        {"name": "Mutton Rangeela", "price_inr": 449.00}
+                    ]
+                },
+                {
+                  "category": "Curries",
+                  "items": [
+                    {"name": "Prawns Curry", "options": ["Masala", "Kadai", "Hyderabadi", "Kolhapuri", "Kallimirchi", "Jalfrezi", "Korma"], "price_inr": 439.00},
+                    {"name": "Fish Curry", "options": ["Masala", "Kadai", "Hyderabadi", "Kolhapuri", "Kallimirchi", "Jalfrezi", "Korma"], "price_inr": 469.00},
+                    {"name": "Mutton Curry", "options": ["Masala", "Kadai", "Hyderabadi", "Kolhapuri", "Kallimirchi", "Jalfrezi", "Korma"], "price_inr": 449.00},
+                    {"name": "Chicken Curry", "options": ["Masala", "Kadai", "Hyderabadi", "Kolhapuri", "Kallimirchi", "Jalfrezi", "Korma"], "price_inr": 389.00},
+                    {"name": "Paneer Curry", "options": ["Masala", "Kadai", "Hyderabadi", "Kolhapuri", "Kallimirchi", "Jalfrezi", "Korma"], "price_inr": 369.00},
+                    {"name": "Mix Veg/Babycorn/Mushroom Curry", "options": ["Masala", "Kadai", "Hyderabadi", "Kolhapuri", "Kallimirchi", "Jalfrezi", "Korma"], "price_inr": 349.00}
+                    ]
+                }
+            ]
+        ],
+        "rice_and_noodles": [
+            {"name": "Pulao Kashmir", "price_inr": 319.00},
+            {"name": "Pulao Peas", "price_inr": 319.00},
+            {"name": "Pulao Mix Veg", "price_inr": 319.00},
+            {"name": "Pulao Paneer", "price_inr": 319.00},
+            {"name": "Rice/Jeera Rice", "price_inr": 319.00},
+            {"name": "Curd Rice", "price_inr": 189.00},
+            {"name": "Steam Rice", "price_inr": 119.00},
+            {"name": "Vegetable Fried Rice/Noodles", "price_inr": 299.00},
+            {"name": "Egg Fried Rice/Noodles", "price_inr": 299.00},
+            {"name": "Chicken Fried Rice/Noodles", "price_inr": 349.00},
+            {"name": "Mixed Fried Rice/Noodles", "price_inr": 389.00},
+             {"name": "Chopsuey - American/Chinese Vegetables", "price_inr": 319.00},
+            {"name": "Chopsuey - American/Chinese Chicken", "price_inr": 369.00},
+            {"name": "Chopsuey - American/Chinese Mixed", "price_inr": 419.00},
+            {"name": "Dal Kichadi/Palak Rice/Ghee Rice", "price_inr": null}
+        ],
+        "desserts": [
+            {"name": "Choice of Ice Cream", "price_inr": 149.00},
+            {"name": "Fresh Fruit Salad", "price_inr": 189.00},
+            {"name": "Fresh Fruit Salad with Ice Cream", "price_inr": 199.00},
+            {"name": "Gulab Jamun", "price_inr": 189.00},
+            {"name": "Gulab Jamun with Ice Cream", "price_inr": 219.00},
+            {"name": "Gajar Halwa", "price_inr": 199.00},
+            {"name": "Gajar Halwa with Ice Cream", "price_inr": 229.00}
+        ]
+    }
+}

@@ -6,7 +6,10 @@ import { images, data } from "../../constants";
 import "./FoodMenu.css";
 
 const FoodMenu = () => (
-  <div className="app__foodMenu app__bg flex__center section__padding" id="menu">
+  <div
+    className="app__foodMenu app__bg flex__center section__padding"
+    id="menu"
+  >
     <div className="app__foodMenu-title">
       <SubHeading title="Menu That Fits You Palatte" />
       <h1 className="headtext__cormorant">Eden's Special</h1>
@@ -29,7 +32,7 @@ const FoodMenu = () => (
       </div>
 
       <div className="app__foodMenu-menu_img">
-        <img src={images.chutney} alt="menu img" />
+        <img src={images.chutney} alt="menu img" className="responsive-image" />
       </div>
 
       <div className="app__foodMenu-menu_cocktails flex__center">

@@ -50,34 +50,43 @@
   width: 100%;
 }
 
+/* Added CSS for responsive image */
+.responsive-image {
+  max-width: 100%; /* Ensure image doesn't exceed its container */
+  height: auto;      /* Maintain aspect ratio */
+}
+
+
 @media screen and (max-width: 2000px) {
   .app__foodMenu-menu_img {
-    width: 650px;
+      width: 650px;
   }
   .app__foodMenu-menu_img img {
-    height: 920px;
+      height: auto;
   }
 }
 
 @media screen and (max-width: 1150px) {
   .app__foodMenu-menu {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
   }
 
   .app__foodMenu-menu_img {
-    margin: 3rem 0;
+      margin: 3rem 0;
+      width: 80%; /* Make image width 80% on medium screens */
   }
 }
 
 @media screen and (max-width: 650px) {
   .app__foodMenu-menu_img {
-    width: 100%;
+      width: 100%;
+      height: auto; /* Make image full width on small screens */
   }
 
   .app__foodMenu-menu_heading {
-    font-size: 35px;
-    line-height: 48.5px;
+      font-size: 35px;
+      line-height: 48.5px;
   }
 }
